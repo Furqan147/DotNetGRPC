@@ -7,9 +7,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2F1E5D3E-701
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9603E056-519C-492F-9388-1541ED3CB3F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRPCClient", "GRPCClient\GRPCClient.csproj", "{992E28CF-EABB-4BA7-821D-5D7B3F1A76B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GRPCService", "GRPCService\GRPCService.csproj", "{A33B6B33-16F3-499B-A85F-0ADE3C3A368A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{992E28CF-EABB-4BA7-821D-5D7B3F1A76B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992E28CF-EABB-4BA7-821D-5D7B3F1A76B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992E28CF-EABB-4BA7-821D-5D7B3F1A76B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992E28CF-EABB-4BA7-821D-5D7B3F1A76B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A33B6B33-16F3-499B-A85F-0ADE3C3A368A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A33B6B33-16F3-499B-A85F-0ADE3C3A368A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A33B6B33-16F3-499B-A85F-0ADE3C3A368A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A33B6B33-16F3-499B-A85F-0ADE3C3A368A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{992E28CF-EABB-4BA7-821D-5D7B3F1A76B4} = {2F1E5D3E-7014-423A-9771-90D04606DAC9}
+		{A33B6B33-16F3-499B-A85F-0ADE3C3A368A} = {2F1E5D3E-7014-423A-9771-90D04606DAC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C203656-8CE1-424E-8172-BDC4B068DB7A}
